@@ -8,27 +8,28 @@
 @media(max-width:1000px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.nav{display:none}.layout{grid-template-columns:180px minmax(0,1fr)}}@media(max-width:650px){.top{height:auto;flex-wrap:wrap;padding:18px 18px;gap:14px}.brand{font-size:26px}.switch{width:100%;justify-content:space-around}.layout{display:block}aside{border-right:0;border-bottom:1px solid var(--line);padding:10px;display:flex;gap:6px;overflow:auto}aside h3{display:none}aside button{white-space:nowrap;width:auto}main{padding:30px 18px}.cards{grid-template-columns:1fr}.hero-art{display:none}}
 .theme-status{color:var(--accent);font-size:13px;white-space:nowrap;padding:10px 0}</style></head>
 <body><div class="app">
-<header class="top"><a href="./" class="brand"><span class="brandmark">◈</span> Deep Thoughts</a><nav class="nav"><button class="active" data-filter="all">Knihovna</button><button data-filter="favorites">Oblíbené</button><button data-filter="notes">Poznámky</button></nav><span id="theme-status" class="theme-status" aria-label="Automatický vzhled">Automatický vzhled</span></header>
+<header class="top"><a href="./" class="brand"><span class="brandmark">◈</span> Deep Thoughts</a><nav class="nav"><button class="active" data-filter="all">Knihovna</button><button data-filter="favorites">Oblíbené</button><button data-filter="notes">Poznámky</button></nav><div class="switch" role="group" aria-label="Vzhled rozhraní"><button id="cabinet" type="button" aria-pressed="true">◈ Cabinet</button><button id="nocturne" type="button" aria-pressed="false">☾ Nocturne</button></div></header>
 <div class="layout"><aside><button class="sideitem active" data-filter="all">⌂ &nbsp; Knihovna</button><button class="sideitem" data-filter="favorites">☆ &nbsp; Oblíbené</button><h3>Témata</h3><button class="sideitem" data-filter="philosophy">Filozofie</button><button class="sideitem" data-filter="psychology">Psychologie</button><button class="sideitem" data-filter="history">Historie</button><button class="sideitem" data-filter="science">Věda</button><button class="sideitem" data-filter="technology">Technologie</button></aside>
-<main><div class="eyebrow">Prostor pro objevování</div><div class="hero"><div><h1 id="heading">Knihovna myšlenek</h1><p>Myšlenky, které rozšiřují obzory, propojují poznání a inspirují k přemýšlení.</p></div><div class="hero-art" aria-hidden="true">❧</div></div><div class="toolbar"><input id="search" class="search" type="search" placeholder="Hledat myšlenky, autory, témata…" aria-label="Hledat karty"><span class="counter" id="counter"></span></div><div class="cards" id="cards"><div class="empty">Načítání knihovny…</div></div><p class="notice">Znalostní karty se načítají z veřejného GitHub repozitáře. Oblíbené změněné na webu se zatím ukládají pouze do tohoto prohlížeče; GitHub se jimi automaticky neaktualizuje. Soukromé konverzace z ChatGPT zde nejsou publikovány.</p><div class="foot">Deep Thoughts · Automatické motivy: Cabinet 7:00–19:00 / Nocturne 19:00–7:00</div></main></div></div>
+<main><div class="eyebrow">Prostor pro objevování</div><div class="hero"><div><h1 id="heading">Knihovna myšlenek</h1><p>Myšlenky, které rozšiřují obzory, propojují poznání a inspirují k přemýšlení.</p></div><div class="hero-art" aria-hidden="true">❧</div></div><div class="toolbar"><input id="search" class="search" type="search" placeholder="Hledat myšlenky, autory, témata…" aria-label="Hledat karty"><span class="counter" id="counter"></span></div><div class="cards" id="cards"><div class="empty">Načítání knihovny…</div></div><p class="notice">Znalostní karty se načítají z veřejného GitHub repozitáře. Oblíbené změněné na webu se zatím ukládají pouze do tohoto prohlížeče; GitHub se jimi automaticky neaktualizuje. Soukromé konverzace z ChatGPT zde nejsou publikovány.</p><div class="foot">Deep Thoughts · Ruční přepínání: Cabinet / Nocturne</div></main></div></div>
 <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="detail-title"><div class="sheet"><button class="close" id="close">✕ Zavřít</button><div class="eyebrow" id="detail-category"></div><h2 id="detail-title"></h2><div class="author" id="detail-author"></div><div id="detail-text"></div><p><a id="source-link" target="_blank" rel="noopener">Otevřít původní kartu na GitHubu</a></p></div></div>
 <script>
 (function(){
-  const root=document.documentElement, localKey="deep-thoughts-local-favorites";
+  const root=document.documentElement, themeKey="deep-thoughts-theme", localKey="deep-thoughts-local-favorites";
   let cards=[], favorites=new Set(), filter="all";
   const categoryNames={philosophy:"Filozofie",psychology:"Psychologie",history:"Historie",science:"Věda",technology:"Technologie"};
   const symbols={philosophy:"⚖",psychology:"◉",history:"⌘",science:"✧",technology:"⌬"};
-  function applyAutomaticTheme(){
-    const hour=new Date().getHours();
-    const theme=(hour>=7 && hour<19)?"cabinet":"nocturne";
+  function setTheme(theme){
+    theme=theme==="nocturne"?"nocturne":"cabinet";
     root.dataset.theme=theme;
-    document.querySelector("#theme-status").textContent=theme==="cabinet"?"☀ Cabinet · denní režim":"☾ Nocturne · noční režim";
+    document.getElementById("cabinet").setAttribute("aria-pressed",String(theme==="cabinet"));
+    document.getElementById("nocturne").setAttribute("aria-pressed",String(theme==="nocturne"));
     document.querySelector('meta[name="theme-color"]').content=theme==="cabinet"?"#1b120c":"#101b2a";
+    try{localStorage.setItem(themeKey,theme)}catch(e){}
   }
-  applyAutomaticTheme();
-  // Update automatically if the page remains open across the day/night boundary.
-  setInterval(applyAutomaticTheme,60000);
-  document.addEventListener("visibilitychange",()=>{if(!document.hidden)applyAutomaticTheme()});
+  let savedTheme="cabinet";
+  try{savedTheme=localStorage.getItem(themeKey)||"cabinet"}catch(e){}
+  setTheme(savedTheme);
+  ["cabinet","nocturne"].forEach(id=>document.getElementById(id).addEventListener("click",()=>setTheme(id)));
   const el=document.getElementById("cards"), search=document.getElementById("search");
   function text(tag,className,value){const n=document.createElement(tag);if(className)n.className=className;n.textContent=value;return n;}
   function render(){el.replaceChildren();const q=search.value.toLocaleLowerCase("cs");const visible=cards.filter(c=>(filter==="all"||(filter==="favorites"&&favorites.has(c.id))||filter===c.category)&&[c.title,c.author,c.category,...(c.tags||[])].join(" ").toLocaleLowerCase("cs").includes(q));document.getElementById("counter").textContent=visible.length+" karet";if(!visible.length){el.append(text("div","empty","Pro tento výběr nejsou žádné karty."));return;}
