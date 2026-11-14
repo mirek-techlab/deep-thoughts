@@ -34,3 +34,34 @@ Sekce `religion` má **srovnávací, otevřený a nekonfesní charakter**. Není
 - Pečlivě rozlišovat dobové prameny, pozdější tradici, odbornou interpretaci a moderní rekonstrukci či novopohanství. Nepředkládat moderní konstrukce jako doloženou starověkou víru.
 - Popisovat jednotlivé tradice věcně a s respektem; představovat také relevantní spory a rozdíly, bez předpokladu, že jsou všechna tvrzení historicky ověřitelná.
 - Upřednostňovat pestrý výběr tradic v čase; nikdy automaticky nezužovat obsah na osobní preference uživatele.
+
+## Hlubší tematické pokrytí: Lakotové a Apsáalooke (Crow)
+
+Vedle širokého a vyváženého pokrytí světových náboženství věnovat Lakotům a Apsáalooke (Crow) pravidelně **podrobnější samostatné karty a tematické série**. Nepovažovat je za zaměnitelné „indiánské náboženství“, nezjednodušovat jednotlivé národy na minulost a neslučovat duchovní praxe bez dokladů.
+
+### Lakotové
+- Wakȟáŋ Tȟáŋka, příbuznost všech bytostí a význam místa, krajiny, bizona a posvátné dýmky.
+- Příběh Pte Sáŋ Wiŋ (White Buffalo Calf Woman) a různé verze podání.
+- Sedm posvátných obřadů, např. Inípi, Haŋbléčheyapi, Wiwáŋyaŋg Wačhípi; jejich smysl, historie a současnost, nikoliv návod k napodobování.
+- Nicholas Black Elk, John (Fire) Lame Deer a další lakotští vypravěči; rozlišit autentický hlas, záznam a editaci překladatele.
+- Současné lakotské komunity, proměny a náboženská svoboda.
+
+### Apsáalooke / Crow
+- Vlastní názvy, tradice a historický kontext národa Apsáalooke.
+- Posvátný tabák, Tobacco Society a související adopční vazby, společenský a duchovní význam.
+- Vidění, půst a osobní duchovní zkušenost; `baaxpée` v kontextu konkrétních zdrojů.
+- Posvátné svazky (medicine bundles, `xapáalia`), význam vlastnictví, opatrování a omezení veřejného zobrazování.
+- Sun Dance, společenská kontinuita a proměny obřadů; různé současné podoby víry.
+- Plenty Coups, Joseph Medicine Crow a současné hlasy Apsáalooke.
+
+### Metoda a etika
+- V prvé řadě vyhledávat veřejně sdílené materiály příslušníků komunit, jejich kulturních institucí a odborné studie s jasným původem.
+- Veřejné obřady vysvětlovat jako kulturní/religiózní praxi, nikoliv vydávat pokyny k provádění neveřejných či chráněných obřadů.
+- Uvádět konkrétní zdroj a případné varianty i nejistoty. Nevydávat jeden zápis či vypravěče za hlas všech.
+- Zachovávat pestrý program ostatních náboženství a témat Deep Thoughts.
+
+### Výchozí veřejné zdroje
+- Aktá Lakota Museum — Seven Sacred Rites: https://aktalakota.stjo.org/lakota-culture/seven-sacred-rites/
+- Smithsonian National Museum of the American Indian — Lakota White Buffalo Calf Woman: https://americanindian.si.edu/nk360/plains-belonging/pdf/Plains_Question1_OcetiSakowin_WhiteBuffaloLameDeer_Excerpt.pdf
+- Yale eHRAF — Crow ethnographic summary: https://ehrafworldcultures.yale.edu/cultures/nq10/summary
+- Smithsonian NMAI — Apsáalooke Tobacco Society sacred bundle (image withheld): https://americanindian.si.edu/collections-search/object/NMAI_126125
