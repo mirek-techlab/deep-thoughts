@@ -11,8 +11,8 @@ Veřejná znalostní knihovna propojená s ChatGPT. Karty jsou otevřené, disku
 
 ## Použití přes ChatGPT
 - „Najdi v Deep Thoughts karty o stoicismu.“
-- „Otevři DT-000001 a proberme ji.“
-- „Označ DT-000001 jako oblíbenou.“
+- „Otevři Představa není důkaz a proberme ji.“
+- „Označ Představa není důkaz jako oblíbenou.“
 - „Ulož následující poznámku veřejně ke kartě DT-000001: …“
 
 Oblíbené a poznámky se zatím upravují pomocí explicitních požadavků v ChatGPT, nikoliv samostatným webovým rozhraním.
