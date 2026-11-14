@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "visibility": "public",
+  "records": {
+    "DT-000002": {
+      "card_title": "Představa není důkaz",
+      "updated_at": "2026-11-14",
+      "summary": "Princip WYSIATI: přesvědčivé vysvětlení může vycházet z neúplných údajů. V diskusi se otevřelo napětí mezi expertní intuicí, doložením hypotézy a přiměřenou jistotou.",
+      "insights": [
+        "Zjištěný fakt a jeho vysvětlení nejsou totéž.",
+        "Jistota vyjádření není měřítkem správnosti.",
+        "Intuici je vhodné poměřovat kvalitou prostředí a zpětné vazby."
+      ],
+      "open_questions": [
+        "Kdy je rychlý odborný úsudek spolehlivější než pomalé ověřování?",
+        "Podle čeho rozpoznat hranice vlastní expertizy?"
+      ],
+      "thread_url": null,
+      "note": "Anonymizované shrnutí dřívější diskuse; nikoliv její přepis."
+    }
+  }
+}
