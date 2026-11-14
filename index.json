@@ -40,6 +40,132 @@
       ],
       "path": "cards/history/DT-000003.md",
       "status": "draft"
+    },
+    {
+      "id": "DT-000004",
+      "title": "Sedm posvátných obřadů Lakotů",
+      "author": "Lakotové",
+      "category": "religion",
+      "tags": [
+        "lakota",
+        "pipa",
+        "obřady",
+        "Wakan Tanka"
+      ],
+      "path": "cards/religion/DT-000004.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000005",
+      "title": "Apsáalooke: posvátný tabák a společenství",
+      "author": "Apsáalooke (Crow)",
+      "category": "religion",
+      "tags": [
+        "crow",
+        "apsaalooke",
+        "tabák",
+        "Tobacco Society"
+      ],
+      "path": "cards/religion/DT-000005.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000006",
+      "title": "Slované: co skutečně víme o bohu hromu",
+      "author": "Předkřesťanští Slované",
+      "category": "religion",
+      "tags": [
+        "slované",
+        "hrom",
+        "prameny",
+        "Procopius"
+      ],
+      "path": "cards/religion/DT-000006.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000007",
+      "title": "Keltové: proč druidy známe hlavně z cizích zpráv",
+      "author": "Keltské tradice",
+      "category": "religion",
+      "tags": [
+        "keltové",
+        "druidové",
+        "archeologie",
+        "prameny"
+      ],
+      "path": "cards/religion/DT-000007.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000008",
+      "title": "Šema: víra jako každodenní připomínání",
+      "author": "Judaismus",
+      "category": "religion",
+      "tags": [
+        "judaismus",
+        "šema",
+        "modlitba",
+        "monoteismus"
+      ],
+      "path": "cards/religion/DT-000008.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000009",
+      "title": "Blahoslavenství: převrácené měřítko úspěchu",
+      "author": "Křesťanství",
+      "category": "religion",
+      "tags": [
+        "křesťanství",
+        "Ježíš",
+        "blahoslavenství",
+        "etika"
+      ],
+      "path": "cards/religion/DT-000009.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000010",
+      "title": "Pět pilířů islámu: víra přenesená do činů",
+      "author": "Islám",
+      "category": "religion",
+      "tags": [
+        "islám",
+        "pět pilířů",
+        "modlitba",
+        "solidarita"
+      ],
+      "path": "cards/religion/DT-000010.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000011",
+      "title": "Čtyři vznešené pravdy: co dělat s utrpením",
+      "author": "Buddhismus",
+      "category": "religion",
+      "tags": [
+        "buddhismus",
+        "dukkha",
+        "utrpení",
+        "cesta"
+      ],
+      "path": "cards/religion/DT-000011.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000012",
+      "title": "Dao a wu-wej: jednání bez násilného tlačení",
+      "author": "Daoismus",
+      "category": "religion",
+      "tags": [
+        "daoismus",
+        "dao",
+        "wu wei",
+        "Čína"
+      ],
+      "path": "cards/religion/DT-000012.md",
+      "status": "published"
     }
   ]
 }
