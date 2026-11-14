@@ -1,5 +1,7 @@
 {
   "schema_version": 1,
   "visibility": "public",
-  "favorite_card_ids": []
+  "favorite_card_ids": [
+    "DT-000002"
+  ]
 }
