@@ -166,6 +166,23 @@
       ],
       "path": "cards/religion/DT-000012.md",
       "status": "published"
+    },
+    {
+      "id": "DT-000013",
+      "title": "Nejlepší odpověď přichází až později",
+      "author": "Deep Thoughts — syntéza odborných zdrojů",
+      "category": "psychology",
+      "tags": [
+        "duch schodiště",
+        "l'esprit de l'escalier",
+        "hindsight bias",
+        "reflexe",
+        "ruminace",
+        "rozhodování",
+        "komunikace"
+      ],
+      "path": "cards/psychology/DT-000013.md",
+      "status": "published"
     }
   ]
 }
