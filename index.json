@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-14",
+  "cards": [
+    {
+      "id": "DT-000001",
+      "title": "Událost a úsudek nejsou totéž",
+      "author": "Marcus Aurelius",
+      "category": "philosophy",
+      "tags": [
+        "stoicism",
+        "judgment",
+        "emotions"
+      ],
+      "path": "cards/philosophy/DT-000001.md",
+      "status": "draft"
+    },
+    {
+      "id": "DT-000002",
+      "title": "Představa není důkaz",
+      "author": "Daniel Kahneman",
+      "category": "psychology",
+      "tags": [
+        "cognitive-bias",
+        "reasoning",
+        "uncertainty"
+      ],
+      "path": "cards/psychology/DT-000002.md",
+      "status": "draft"
+    },
+    {
+      "id": "DT-000003",
+      "title": "Historické prameny nejsou průhledné okno",
+      "author": "Marc Bloch",
+      "category": "history",
+      "tags": [
+        "historiography",
+        "sources",
+        "critical-thinking"
+      ],
+      "path": "cards/history/DT-000003.md",
+      "status": "draft"
+    }
+  ]
+}
