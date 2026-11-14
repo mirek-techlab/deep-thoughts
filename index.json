@@ -183,6 +183,103 @@
       ],
       "path": "cards/psychology/DT-000013.md",
       "status": "published"
+    },
+    {
+      "id": "DT-000014",
+      "title": "Patřit někam: potřeba, ne slabost",
+      "author": "Baumeister a Leary",
+      "category": "psychology",
+      "tags": [
+        "sounáležitost",
+        "vztahy",
+        "samota"
+      ],
+      "path": "cards/psychology/DT-000014.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000015",
+      "title": "Blízkost vzniká postupně: otevřenost a důvěra",
+      "author": "Výzkum vztahů",
+      "category": "psychology",
+      "tags": [
+        "otevřenost",
+        "důvěra",
+        "hranice",
+        "reciprocita"
+      ],
+      "path": "cards/psychology/DT-000015.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000016",
+      "title": "Vztahové vzorce nejsou rozsudek",
+      "author": "Teorie attachmentu",
+      "category": "psychology",
+      "tags": [
+        "attachment",
+        "důvěra",
+        "bezpečí",
+        "vztahy"
+      ],
+      "path": "cards/psychology/DT-000016.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000017",
+      "title": "Jungova persona: role není celý člověk",
+      "author": "Carl Gustav Jung",
+      "category": "philosophy",
+      "tags": [
+        "Jung",
+        "persona",
+        "autenticita",
+        "společenské role"
+      ],
+      "path": "cards/philosophy/DT-000017.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000018",
+      "title": "Jungův stín: co na sobě nechceme vidět",
+      "author": "Carl Gustav Jung",
+      "category": "philosophy",
+      "tags": [
+        "Jung",
+        "stín",
+        "projekce",
+        "sebepoznání"
+      ],
+      "path": "cards/philosophy/DT-000018.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000019",
+      "title": "Nietzsche: stát se tím, kým jsi",
+      "author": "Friedrich Nietzsche",
+      "category": "philosophy",
+      "tags": [
+        "Nietzsche",
+        "autenticita",
+        "sebeutváření",
+        "hodnoty"
+      ],
+      "path": "cards/philosophy/DT-000019.md",
+      "status": "published"
+    },
+    {
+      "id": "DT-000020",
+      "title": "Samota, osamělost a svoboda být sám",
+      "author": "Deep Thoughts — otázka k úvaze",
+      "category": "philosophy",
+      "tags": [
+        "samota",
+        "osamělost",
+        "sounáležitost",
+        "autonomie"
+      ],
+      "path": "cards/philosophy/DT-000020.md",
+      "status": "published"
     }
   ]
 }
